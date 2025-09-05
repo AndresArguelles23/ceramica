@@ -1,23 +1,20 @@
 export const products = [
   {
     id: 1,
-    name: "Taza en terracota",
-    price: 45000,
-    image:
-      "https://images.unsplash.com/photo-1603899123257-1eaf8b44e4e9?q=80&w=600&auto=format&fit=crop",
+    name: "Baldosa Gris Cemento",
+    price: 120000,
+    image: "/images/catalogo/2.png",
   },
   {
     id: 2,
-    name: "Plato artesanal",
-    price: 70000,
-    image:
-      "https://images.unsplash.com/photo-1617196034916-5cb582fa4185?q=80&w=600&auto=format&fit=crop",
+    name: "Baldosa Mármol Blanco",
+    price: 160000,
+    image: "/images/catalogo/3.png",
   },
   {
     id: 3,
-    name: "Florero minimalista",
-    price: 95000,
-    image:
-      "https://images.unsplash.com/photo-1587032228360-8f2c86c55ee0?q=80&w=600&auto=format&fit=crop",
+    name: "Baldosa Negra Mate",
+    price: 130000,
+    image: "/images/catalogo/6.png",
   },
 ];

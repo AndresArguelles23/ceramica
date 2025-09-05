@@ -1,20 +1,20 @@
 export default function GallerySection() {
   const items = [
-    {
-      src: "https://images.unsplash.com/photo-1577968897966-3d4325b36d3c?q=80&w=1200&auto=format&fit=crop",
-      alt: "Taza esmaltada sobre mesa de madera",
-      caption: "Tazas esmaltadas · Serie Ámbar",
-    },
-    {
-      src: "https://images.unsplash.com/photo-1608222351210-5b0ae6b2d5b1?q=80&w=1200&auto=format&fit=crop",
-      alt: "Platos cerámicos apilados con textura mate",
-      caption: "Platos mate · Colección Tierra",
-    },
-    {
-      src: "https://images.unsplash.com/photo-1601004890684-d8cbf643f5f2?q=80&w=1200&auto=format&fit=crop",
-      alt: "Florero minimalista con ramas secas",
-      caption: "Florero minimalista",
-    },
+  {
+    src: "/images/galeria/1.png",
+    alt: "Baño moderno con cerámica gris",
+    caption: "Baño minimalista en tonos grises",
+  },
+  {
+    src: "/images/galeria/4.png",
+    alt: "Cocina con piso de mármol blanco",
+    caption: "Cocina elegante en mármol blanco",
+  },
+  {
+    src: "/images/galeria/5.png",
+    alt: "Ducha revestida con cerámica mate",
+    caption: "Ducha con acabado mate y limpio",
+  },
     {
       src: "https://images.unsplash.com/photo-1542114740389-4d03c1b2d2a9?q=80&w=1200&auto=format&fit=crop",
       alt: "Set para café en cerámica artesanal",
