@@ -2,43 +2,54 @@ export default function AboutSection() {
   return (
     <section id="about" className="about">
       <div className="container about-inner">
+        {/* Texto */}
         <div className="about-copy">
-          <h2>Hecho a mano, pieza por pieza</h2>
+          <h2>Revestimientos cerámicos para proyectos reales</h2>
           <p>
-            Somos un taller pequeño en Colombia. Trabajamos con terracota y
-            esmaltes de tonos cálidos. Cada pieza pasa por un proceso lento:
-            modelado, secado, horneado y acabado. No producimos en masa.
+            Somos una empresa colombiana dedicada a <strong>pisos, paredes y baños</strong>
+            en cerámica y porcelanato. Priorizamos la durabilidad, el diseño atemporal y
+            la entrega responsable: stock real y especificaciones claras.
           </p>
           <p>
-            Creemos en los objetos que cuentan historias y acompañan la vida
-            diaria. Si te gusta lo sencillo, lo imperfecto y lo duradero,
-            probablemente te guste lo que hacemos.
+            Trabajamos con constructores, remodeladores y clientes finales. Si buscas
+            <em> textura, resistencia al agua y un acabado limpio</em>, te guiamos desde
+            la selección hasta la instalación con recomendaciones técnicas.
           </p>
 
+          {/* Píldoras de confianza */}
+          <ul className="about-bullets">
+            <li>Antideslizante (opcionales)</li>
+            <li>Resistente a humedad</li>
+            <li>Fácil mantenimiento</li>
+            <li>Garantía de fábrica</li>
+          </ul>
+
+          {/* Métricas */}
           <div className="about-facts">
             <div>
-              <strong>+300</strong>
-              <span>piezas vendidas</span>
+              <strong>+120</strong>
+              <span>proyectos entregados</span>
             </div>
             <div>
-              <strong>5 años</strong>
-              <span>de oficio</span>
+              <strong>7 años</strong>
+              <span>de experiencia</span>
             </div>
             <div>
-              <strong>100%</strong>
-              <span>hecho en Colombia</span>
+              <strong>Nacional</strong>
+              <span>envíos en Colombia</span>
             </div>
           </div>
         </div>
 
-        <div className="about-visual">
+        {/* Visual */}
+        <figure className="about-visual">
           <img
-            src="https://images.unsplash.com/photo-1556227701-0ec504b0204e?q=80&w=1200&auto=format&fit=crop"
-            alt="Taller de cerámica artesanal"
+            src="/images/galeria/4.png"
+            alt="Showroom con revestimiento cerámico instalado"
             loading="lazy"
           />
-          <figcaption>Nuestro taller. Foto de referencia.</figcaption>
-        </div>
+          <figcaption>Acabados en obra. Foto de referencia.</figcaption>
+        </figure>
       </div>
     </section>
   );
